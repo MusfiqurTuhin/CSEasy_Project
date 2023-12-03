@@ -51,6 +51,7 @@
             
             <?php if (isset($Fullname)) : ?>
         <a class="get-started" href="#"><?php echo $Fullname; ?></a>
+        <a class="get-started" href="logout.php">Logout</a>
         <!-- Your blog content goes here for registered users -->
     <?php else : ?>
         <a class="get-started" href="login.php">Register</a>
