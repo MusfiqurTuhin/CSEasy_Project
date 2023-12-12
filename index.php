@@ -35,12 +35,12 @@
             <div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
             <ul>
                 <li><a class="active" href="">Home</a></li>
-                <li><a class="active" href="">CSE Bangla Content</a></li>
+                <li><a class="active" href="bangla/index.php">CSE Bangla Content</a></li>
                 <li><a class="active" href="subjects/computer_courses.html">Bangla Courses</a></li>
                <li><a class="active" href="">Library</a>
                     <ul class="submenu">
                         <li><a href="read.html">Live Reading</a></li>
-                        <li><a href="#">Download Books</a></li>
+                        <li><a href="Download_Books/index.html">Download Books</a></li>
                     </ul>
                 </li>
                 <li><a class="active" href="">Practice</a></li>

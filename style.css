@@ -501,7 +501,7 @@ a, button {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b2.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("");
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -930,3 +930,5 @@ footer .btn:hover {
 		width: 100%;
 	}
 }
+
+
