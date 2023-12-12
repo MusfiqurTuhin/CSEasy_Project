@@ -40,7 +40,7 @@
                <li><a class="active" href="">Library</a>
                     <ul class="submenu">
                         <li><a href="read.html">Live Reading</a></li>
-                        <li><a href="Download_Books/index.html">Download Books</a></li>
+                        <li><a href="download.html">Download Books</a></li>
                     </ul>
                 </li>
                 <li><a class="active" href="">Practice</a></li>
