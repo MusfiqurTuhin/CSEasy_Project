@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/android-chrome-512x512.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>CSEasy</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	  <!-- CSS files -->
+	  <link rel="stylesheet" href="vendors/css/normalize.css">
+	  <link rel="stylesheet" href="vendors/css/grid.css">
+	  <link rel="stylesheet" href="vendors/css/animate.css">
+	  <link rel="stylesheet" href="resources/css/style.css">
+	  <link rel="stylesheet" href="resources/css/queries.css">
+	
+	  <!-- Google Fonts -->
+	  <link href="https://fonts.googleapis.com/css?family=Lato:100,300&display=swap" rel="stylesheet">
+	
+	  <!-- Favicons -->
+	  <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+	  <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+	  <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+	  <link rel="manifest" href="resources/favicons/site.webmanifest">
+	  <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#96281b">
+	  <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+	  <meta name="msapplication-TileColor" content="#96281b">
+	  <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+	  <meta name="theme-color" content="#96281b">
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="index.php">Home</a></li>
+				<li><a class="active" href="">CSE Bangla Content</a></li>
+				<li><a class="active" href="subjects/computer_courses.html">Bangla Courses</a></li>
+				<li><a class="active" href="">Library</a></li>
+				<li><a class="active" href="">Practice</a></li>
+				<li><a class="active" href="">Q&A</a></li>
+
+
+				<!-- <li><a href="#services_section">Features</a></li> -->
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.php">Register</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<!-- Section: Books -->
+		<section class="section-books" id="section-books">
+			<div class="row">
+			  <h2>Click on a book to start reading.</h2>
+			</div>
+		
+			<div class="booklist">
+			  <div class="row">
+				<div class="col span-1-of-2 box">
+					<ul>
+					  <li><a href="books/Programming_in_C/contents.html">1. Programming in C by	Stephen G. Kochan (Third Edition)</a></li>
+					</ul>
+				  </div>
+
+
+				<div class="col span-1-of-2 box">
+				  <ul>
+					<li><a href="books/01_northanger_abbey/contents.html">2. Northanger Abbey by Jane Austen</a></li>
+				  </ul>
+				</div>
+		
+				<div class="col span-1-of-2 box">
+				  <ul>
+					<li><a href="books/02_sherlock_holmes/contents.html">3. The Adventures of Sherlock Holmes by Arthur Conan Doyle</a></li>
+				  </ul>
+				</div>
+			  </div>
+			</div>
+		  </section>
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/icon/logowhite.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2023 Created By Team CSEasy</p>
+				<br><p><img src="images/icon/location.png"> United International University<br>Dhaka, Bangladesh </p><br>
+				<p><img src="images/icon/phone.png"> +88012345667<br><img src="images/icon/mail.png">&nbsp; cseasy@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

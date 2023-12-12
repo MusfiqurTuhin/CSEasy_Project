@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chapter 1</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Introduction">
+
+  <!-- CSS files -->
+  <link rel="stylesheet" href="../../vendors/css/normalize.css">
+  <link rel="stylesheet" href="../../vendors/css/grid.css">
+  <link rel="stylesheet" href="../../resources/css/style-chapters.css">
+  <link rel="stylesheet" href="../../resources/css/queries-chapters.css">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400&display=swap" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../../resources/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../resources/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../resources/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../../resources/favicons/site.webmanifest">
+  <link rel="mask-icon" href="../../resources/favicons/safari-pinned-tab.svg" color="#96281b">
+  <link rel="shortcut icon" href="../../resources/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#96281b">
+  <meta name="msapplication-config" content="../../resources/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#96281b">
+</head>
+<body>
+  <!-- Home and dark mode buttons -->
+  <a href="../../index.php"><ion-icon class="home-button js--home-button" name="book"></ion-icon></a>
+  <ion-icon class="dark-mode-switch js--dark-mode-switch" name="bulb"></ion-icon>
+
+  <!-- Top navigation -->
+  <nav class="top-navigation">
+    <div>
+      <ul class="row">
+        <li><a href="#"><ion-icon name="arrow-dropleft-circle"></ion-icon></a></li>
+        <li><a href="contents.html"><ion-icon name="square" class="contents-link"></ion-icon></a></li>
+        <li><a href="chapter_02.html"><ion-icon name="arrow-dropright-circle"></ion-icon></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Header -->
+    <header class="row">
+      <h1>Introduction</h1>
+    </header>
+
+    <!-- Story -->
+    <article class="row">
+      <p>
+        THE C PROGRAMMING LANGUAGE WAS pioneered by Dennis Ritchie at AT&T Bell
+        Laboratories in the early 1970s. It was not until the late 1970s, however, that this programming language began to gain widespread popularity and support.This was because
+        until that time C compilers were not readily available for commercial use outside of Bell
+        Laboratories. Initially, C's growth in popularity was also spurred on in part by the equal,
+        if not faster, growth in popularity of the Unix operating system.This operating system,
+        which was also developed at Bell Laboratories, had C as its “standard” programming language. In fact, well over 90% of the operating system itself was written in the C language!
+        The enormous success of the IBM PC and its look-alikes soon made MS-DOS the
+        most popular environment for the C language.As C grew in popularity across different
+        operating systems, more and more vendors hopped on the bandwagon and started marketing their own C compilers. For the most part, their version of the C language was
+        based on an appendix found in the first C programming text—The C Programming
+        Language—by Brian Kernighan and Dennis Ritchie. Unfortunately, this appendix did not
+        provide a complete and unambiguous definition of C, meaning that vendors were left to
+        interpret some aspects of the language on their own.
+        In the early 1980s, a need was seen to standardize the definition of the C language.
+        The American National Standards Institute (ANSI) is the organization that handles such
+        things, so in 1983 an ANSI C committee (called X3J11) was formed to standardize C. In
+        1989, the committee's work was ratified, and in 1990, the first official ANSI standard definition of C was published.
+        Because C is used around the world, the International Standard Organization (ISO)
+        soon got involved.They adopted the standard, where it was called ISO/IEC 9899:1990.
+        Since that time, additional changes have been made to the C language.The most recent
+        standard was adopted in 1999. It is known as ANSI C99, or ISO/IEC 9899:1999. It is
+        this version of the language upon which this book is based.
+        C is a “higher-level language,” yet it provides capabilities that enable the user to “get
+        in close” with the hardware and deal with the computer on a much lower level.This is  because, although C is a general-purpose structured programming language, it was originally designed with systems programming applications in mind and, as such, provides the
+        user with an enormous amount of power and flexibility.
+        This book proposes to teach you how to program in C. It assumes no previous exposure to the language and was designed to appeal to novice and experienced programmers
+        alike. If you have previous programming experience, you will find that C has a unique
+        way of doing things that probably differs from other languages you have used.
+        Every feature of the C language is treated in this text.As each new feature is presented, a small complete program example is usually provided to illustrate the feature.This
+        reflects the overriding philosophy that has been used in writing this book: to teach by
+        example. Just as a picture is worth a thousand words, so is a properly chosen program
+        example. If you have access to a computer facility that supports the C programming language, you are strongly encouraged to download and run each program presented in this
+        book and to compare the results obtained on your system to those shown in the text. By
+        doing so, not only will you learn the language and its syntax, but you will also become
+        familiar with the process of typing in, compiling, and running C programs.
+        You will find that program readability has been stressed throughout the book.This is
+        because I strongly believe that programs should be written so that they can be easily
+        read—either by the author or by somebody else.Through experience and common
+        sense, you will find that such programs are almost always easier to write, debug, and
+        modify. Furthermore, developing programs that are readable is a natural result of a true
+        adherence to a structured programming discipline.
+        Because this book was written as a tutorial, the material covered in each chapter is
+        based on previously presented material.Therefore, maximum benefit will be derived
+        from this book by reading each chapter in succession, and you are highly discouraged
+        from “skipping around.”You should also work through the exercises that are presented at
+        the end of each chapter before proceeding on to the next chapter.
+        Chapter 2,“Some Fundamentals,” which covers some fundamental terminology about
+        higher-level programming languages and the process of compiling programs, has been
+        included to ensure that you understand the language used throughout the remainder of
+        the text. From Chapter 3,“Compiling and Running Your First Program,” on, you will be
+        slowly introduced to the C language. By the time Chapter 16,“Input and Output
+        Operations in C,” rolls around, all the essential features of the language will have been
+        covered. Chapter 16 goes into more depth about I/O operations in C. Chapter 17,
+        “Miscellaneous and Advanced Features,” includes those features of the language that are
+        of a more advanced or esoteric nature.
+        Chapter 18,“Debugging Programs,” shows how you can use the C preprocessor to
+        help debug your programs. It also introduces you to interactive debugging.The popular
+        debugger gdb was chosen to illustrate this debugging technique.
+        Over the last decade, the programming world has been abuzz with the notion of
+        object-oriented programming, or OOP for short. C is not an OOP language; however,
+        several other programming languages that are based on C are OOP languages. Chapter
+        19,“Object-Oriented Programming,” gives a brief introduction to OOP and some of its
+        terminology. It also gives a brief overview of three OOP languages that are based on C,
+        namely C++, C#, and Objective-C.
+        Appendix A,“C Language Summary,” provides a complete summary of the language
+        and is provided for reference purposes.
+        Appendix B,“The Standard C Library,” provides a summary of many of the standard
+        library routines that you will find on all systems that support C.
+        Appendix C,“Compiling Programs with gcc,” summarizes many of the commonly
+        used options when compiling programs with GNU's C compiler gcc.
+        In Appendix D,“Common Programming Mistakes,” you'll find a list of common programming mistakes.
+        Finally,Appendix E,“Resources,” provides a list of resources you can turn to for more
+        information about the C language and to further your studies.
+        Answers to the quizzes at the end of chapters can be found at www.kochan-wood.com.
+        This book makes no assumptions about a particular computer system or operating
+        system on which the C language is implemented.The text makes brief mention of how
+        to compile and execute programs using the popular GNU C compiler gcc.
+        I want to thank the following people for their help in the preparation of various versions of this text: Douglas McCormick, Jim Scharf, Henry Tabickman, Dick Fritz, Steve
+        Levy,Tony Ianinno, and Ken Brown. I also want to thank Henry Mullish of New York
+        University for teaching me so much about writing and for getting me started in the
+        publishing business.
+        An earlier edition of this book was also dedicated to the memory of Maureen
+        Connelly, a former production editor at Hayden Book Company, the publishers of the
+        first edition of this book.
+        </p>
+    </article>
+  </main>
+
+  <!-- Bottom navigation -->
+  <nav class="bottom-navigation">
+    <div>
+      <ul class="row">
+        <li><a href="#"><ion-icon name="arrow-dropleft-circle"></ion-icon></a></li>
+        <li><a href="contents.html"><ion-icon name="square" class="contents-link"></ion-icon></a></li>
+        <li><a href="chapter_02.html"><ion-icon name="arrow-dropright-circle"></ion-icon></a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="../../resources/js/script-chapters.js"></script>
+</body>
+</html>

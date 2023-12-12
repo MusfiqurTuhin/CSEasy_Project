@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/android-chrome-512x512.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>CSEasy</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	  <!-- CSS files -->
+	  <link rel="stylesheet" href="vendors/css/normalize.css">
+	  <link rel="stylesheet" href="vendors/css/grid.css">
+	  <link rel="stylesheet" href="vendors/css/animate.css">
+	  <link rel="stylesheet" href="resources/css/style.css">
+	  <link rel="stylesheet" href="resources/css/queries.css">
+	
+	  <!-- Google Fonts -->
+	  <link href="https://fonts.googleapis.com/css?family=Lato:100,300&display=swap" rel="stylesheet">
+	
+	  <!-- Favicons -->
+	  <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+	  <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+	  <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+	  <link rel="manifest" href="resources/favicons/site.webmanifest">
+	  <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#96281b">
+	  <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+	  <meta name="msapplication-TileColor" content="#96281b">
+	  <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+	  <meta name="theme-color" content="#96281b">
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="index.php">Home</a></li>
+				<li><a class="active" href="">CSE Bangla Content</a></li>
+				<li><a class="active" href="subjects/computer_courses.html">Bangla Courses</a></li>
+				<li><a class="active" href="">Library</a></li>
+				<li><a class="active" href="">Practice</a></li>
+				<li><a class="active" href="">Q&A</a></li>
+
+
+				<!-- <li><a href="#services_section">Features</a></li> -->
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.php">Register</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                 <i class="fa-solid fa-palette"></i>
+                <h2>Art and Design</h2>
+                <p>Hey there! Receive my flowers at first. You can make orders for your personal/couple portraits, caricatures or any kind of art/poster designs of your choice.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+<i class="fa-solid fa-paintbrush"></i>
+                <h2>Live Caricature Drawing</h2>
+                <p>Hey there! Hire me as a caricature artist for live caricatures at your parties/seminars.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Hi Again! Hire me for designing your personal portfolio website.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src= "Lieu d'art.jpg">
+                <div class="layer">
+                    <h3>Lieu d'art</h3>
+                    <p>Visit my facebook page and see my artworks.</p>
+                    <a href="https://www.facebook.com/profile.php?id=100088343029347&mibextid=ZbWKwL"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src= "school campaign with uktanchol.jpg">
+                <div class="layer">
+                    <h3>Social Works</h3>
+                    <p>Visit here and have a look at my social works with a literature Organization.</p>
+                    <a href="https://drive.google.com/file/d/1C7AFSuD56O_pnHSYK4GErbpWM5MApuZR/view?usp=sharing"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src= "whenever i see you khowai.png">
+                <div class="layer">
+                    <h3>Poetries and Art journal</h3>
+                    <p>Here I am making a combination between my poetries and artworks. See how it looks!</p>
+                    <a href= "jotobar ami tomay dekhi khowai.pdf"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> prithweeraj.poragach02@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +8801791542845</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shiningtheme.shiningtheme?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fprithweeraj_porag%3Figshid%3DNTA5ZTk1NTc%253D%26fbclid%3DIwAR1DAKyEhr96XRftD3rTQzHQXMvQDf-aYK7hHs0SqZYzAXxF0IhJMXpr5_c&h=AT2ztx8qTXUtDy-iqdpmb5JS8u-vTt5KeZLS2LLXfUsTxA4WaEeMLh2BPSG0BElxHYxUDPgEhdbpLS1mkVqA3rIR-XDmhcVsYu5sa5U8a1-V4ZM--HUKrDmF2uShmE-ZUINCF33hFHroNvwR1Ea_vw"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href= "cv final.pdf" download class="btn btn2">Download CV</a>
+            </div>
+       
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Prithweeraj Acharjee Porag.<a href="https://www.facebook.com/shiningtheme.shiningtheme?mibextid=ZbWKwL"></a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbzMUdMoHp8NunrbBjGX-cPT-X_MKHkTWBr_fhEnBTWvQJtCqeHBgzArQvbq4HQDV-kGeg/exec  >' 
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
