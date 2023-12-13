@@ -35,7 +35,7 @@
             <div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
             <ul>
                 <li><a class="active" href="">Home</a></li>
-                <li><a class="active" href="bangla/index.php">CSE Bangla Content</a></li>
+                <li><a class="active" href="BanglaContent_QA/">CSE Bangla Content</a></li>
                 <li><a class="active" href="subjects/computer_courses.html">Bangla Courses</a></li>
                <li><a class="active" href="">Library</a>
                     <ul class="submenu">
